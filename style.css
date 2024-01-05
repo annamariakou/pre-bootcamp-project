@@ -1,0 +1,28 @@
+.search {
+    --padding:14px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+padding: var(--padding);
+border-radius: 28px;
+background: #f6f6f6;
+}
+
+.search-input {
+    font-size: 15px;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 4px;
+    margin: 12px;
+  }
