@@ -29,11 +29,16 @@ background: #f6f6f6;
 
 #carousel .slide {
     display: inline-block;
+    text-align: center;
 }
 
 #carousel::-webkit-scrollbar {
     display: none;
   }
 
-
+figcaption {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+  }
 
