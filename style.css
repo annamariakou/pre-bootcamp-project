@@ -18,10 +18,19 @@
 
 }
 
+.bottomContainer {
+    position: fixed; 
+    bottom: 0; 
+    width: 405px; 
+    background-color: white;
+
+}
+
 .searchContainer {
 
     padding-top: 15px;
     padding-left: 25px;
+    background-color: white;
 
 }
 
