@@ -181,3 +181,29 @@ figcaption {
     opacity: .7;
 
   }
+
+  .propertyText {
+    line-height: 5px;
+  }
+
+  .container {
+    font-size: 14px;
+  }
+
+
+
+  .aboutStay {
+    font-weight: 200;
+    color: #717171;
+  }
+
+  .cost {
+    text-decoration: underline;
+    font-weight: 950;
+  }
+
+.city {
+    display: flex;
+    font-weight: 950;
+    justify-content: space-between;
+}
