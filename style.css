@@ -1,57 +1,33 @@
-
-body {
-    font-family: "Manrope", Arial, Helvetica, sans-serif;
-    }
-
-.mainContainer {
+<<<<<<<<< Temporary merge branch 1
+.search {
+    --padding:14px;
+    width: max-content;
+    display: flex;
     align-items: center;
-    width: 405px;
-    margin: auto;
-    border: 1px solid #D3D3D3;
-   
+padding: var(--padding);
+border-radius: 28px;
+background: #f6f6f6;
 }
 
-.upperContainer {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 405px;
-    background-color: white;
-    z-index: 2;
-    border-bottom: 1px solid #71717138;
-    box-shadow: 0 2px 2px -2px rgb(164, 163, 163);
-
-    
-    
-
+.search-input {
+    font-size: 15px;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    font-weight: bold;
 }
 
-
-.bottomContainer {
-    position: fixed; 
-    bottom: 0; 
-    width: 405px; 
-    background-color: white;
-    z-index: 2;
-    height: 60px;
-    border-top: 1px solid #71717138;
-
-}
-
-.searchContainer {
-
-    padding-top: 15px;
-    padding-left: 25px;
-    background-color: white;
-
-}
-
-.content {
-    padding-top: 150px;
-    padding-bottom: 52px;
-}
-
-
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 4px;
+    margin: 12px;
+  }
+=========
 
 .search {
     background: white;
@@ -167,282 +143,4 @@ figcaption {
     'opsz' 24
 
   }
-
-#searchIcon {
-    margin-top: 10px;
-    margin-left: -2px;
-}
-
-  .card {
-    transition: 0.3s;
-    border-radius: 5px; 
-    padding: 25px;
-    position: relative;
-    
-  }
-  
-  .rentalImage {
-    border-radius: 10px 10px 10px 10px;
-    height: 340px;
-    width: 360px;
-    object-fit: cover;
-   
-  }
-
-  .slide {
-    height: 20px;
-    opacity: .7;
-
-  }
-
-  .propertyText {
-    line-height: 5px;
-  }
-
-  .container {
-    font-size: 14px;
-  }
-
-
-
-  .aboutStay {
-    font-weight: 200;
-    color: #717171;
-  }
-
-  .cost {
-    text-decoration: underline;
-    
-  }
-
-  .price {
-    font-weight: 950;
-  }
-
-.city {
-    display: flex;
-    font-weight: 950;
-    justify-content: space-between;
-}
-
-.likeButton {
-    position: absolute;
-            z-index: 1;
-            text-align: right;
-            width: 340px;
-            margin-top: 15px;
-        
-  
-
-}
-
-#heart {
-    position: absolute;
-            z-index: 2;
-            color: white;
-            border-radius: 100%;
-           
-            
-           
-}
-
-.menuIcons {
-    text-align: center;
-    padding-top: 10px;
-    color: #aba8a8;
-}
-
-#searchButton {
-    padding-left: 100px;
-    padding-right: 50px;
-
-}
-
-#user {
-    padding-right: 100px;
-    padding-left: 50px;
-
-}
-
-.menuCaptions {
-    font-size: 9px;
-    color: #aba8a8;
-    text-align: center;
-   
-}
-
-.explore {
-    padding-left: 70px;
-    padding-right: 40px;
-}
-    
-
-.login {
-    padding-right: 70px;
-    padding-left: 40px; 
-    
-} 
-
-.wishlists {
-    padding-right: 5px;
-}
-
-.bottomDescription {
-    font-size: 18px;
-    text-align: center;
-    font-weight: 900;
-}
-
-button {
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 12px;
-    padding: 15px 30px;
-    font-size: 16px;
-    margin-bottom: 30px;
-    
-}
-
-.showMore {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-
-}
-
-footer {
-    background-color: #F7F7F7;
-    
-}
-
-.bottomFooter {
-   padding: 25px;
-}
-
-
-#bottomSlider {
-    width: 100%;
-    height: 50px;
-   
-    padding-bottom: 10px;
-    
-    margin-top: -20px;
-    background-color: #F7F7F7;
-
-
-    overflow: auto;
-    white-space:nowrap;
-    border-bottom: 1px solid #71717138;
-}
-
-#bottomSlider .slideTwo {
-    display: inline-block;
-    text-align: center;
-}
-
-#bottomSlider::-webkit-scrollbar {
-    display: none;
-  }
-
-  .slideTwo {
-    padding: 10px;
-    font-size: smaller;
-    font-weight: bolder;
-    opacity: .7;
-
-  }
-
-
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 50%;
-    padding-bottom: 15px;
-    font-size: smaller;
-  }
-
-  .smallCity {
-    font-weight: 950;
-  }
-  
-  .smallDescription {
-    opacity: .7;
-    font-weight: 100;
-  }
-
-  #additionalCities {
-    padding-bottom: 40px;
-    padding-top: 20px;
-    border-bottom: 1px solid #71717138;
-
-  }
-
-  #support {
-    font-size: smaller;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #71717138;
-  }
-
-  .supportDescriptions {
-    opacity: .7;
-    font-weight: 100;
-  }
-
-  .supportTwo {
-    font-weight: 950;
-  }
-
-  #hosting {
-    font-size: smaller;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #71717138;
-  }
-
-  .hostingDescriptions {
-    opacity: .7;
-    font-weight: 100;
-  }
-
-  .hostingTwo {
-    font-weight: 950;
-  }
-
-  #airbnb {
-    font-size: smaller;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #71717138;
-  }
-
-  .airbnbDescriptions {
-    opacity: .7;
-    font-weight: 100;
-  }
-
-  .airbnbTwo {
-    font-weight: 950;
-  }
-
-  #terms {
-    padding-top: 10px;
-    font-size: smaller;
-  }
-
-  .country {
-    font-weight: 950;
-    word-spacing: 15px;
-  }
-
-  #language {
-    font-size: small;
-  }
-
-  .slide:hover {
-    opacity: 1;
-    font-weight: 950;
-    text-decoration: underline;
-  }
-
-  
+>>>>>>>>> Temporary merge branch 2
