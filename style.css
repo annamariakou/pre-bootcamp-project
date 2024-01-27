@@ -124,7 +124,8 @@ padding-left: 30px;
 
   .searchDescriptions {
     float: right;
-    margin-top: -35px;
+    margin-top: -30px;
+    line-height: 100%;
   }
 
 #carousel {
@@ -211,6 +212,10 @@ figcaption {
 
   .cost {
     text-decoration: underline;
+    
+  }
+
+  .price {
     font-weight: 950;
   }
 
@@ -224,7 +229,7 @@ figcaption {
     position: absolute;
             z-index: 1;
             text-align: right;
-            width: 320px;
+            width: 340px;
             margin-top: 15px;
         
   
@@ -439,3 +444,5 @@ footer {
     font-weight: 950;
     text-decoration: underline;
   }
+
+  
