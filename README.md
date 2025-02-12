@@ -1,4 +1,4 @@
-Airbnb mobile clone for School of Code pre bootcamp project.
+Airbnb mobile clone for the School of Code pre bootcamp project.
 
 Deployed project: https://comforting-trifle-8a9234.netlify.app/
 
